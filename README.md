@@ -44,6 +44,16 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - next-auth로 간단한 소셜 로그인 구현
 - DB mySql사용
 
+## 핵심기능
+
+-DALL-E가 URL을 리턴해주는데 시간이 지나면 사라진다.
+그래서 base64타입으로 받아 먼저 이미지서버(Cloudinary)에 저장해준 뒤 리턴했다.
+
+## 어려웠던 점
+
+-DALL-E가 URL을 리턴해주는데 시간이 지나면 사라진다.
+그래서 base64타입으로 받아 먼저 이미지서버(Cloudinary)에 저장해준 뒤 리턴했다.
+
 ## 추가할 기능
 
 1. StackOverFlow나 Reddit같은 Vote기능을 추가해서 어떤 이미지가 가장 귀여운지 순위를 메기면 재밌을 것 같다.
