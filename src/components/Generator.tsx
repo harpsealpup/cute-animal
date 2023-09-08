@@ -76,8 +76,9 @@ const Generator = () => {
 
   return ( 
     <div className="mt-10 flex flex-col justify-center items-center">
-
+<h1>GITHUB에 코드 보러 가기</h1>
 <h1>본 이미지 생성기는 Open-AI사의 DALL-E API를 사용하였습니다</h1>
+
 
     <Card className="w-[365px] my-4">
       <CardHeader>
@@ -113,7 +114,7 @@ const Generator = () => {
       </CardContent>
       <hr/>
       <CardFooter className="flex justify-center items-center">
-        
+       {/* @ts-ignore */}
       <Button onClick={mutate} variant='outline' className="mt-5 ">
       <Cat className="mr-2 h-4 w-4" /> 귀여운 동물 만들기
     </Button>

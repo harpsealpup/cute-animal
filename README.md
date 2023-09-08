@@ -32,3 +32,20 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+
+## 프로젝트의 목적
+
+1. 백엔드 구분없이 NEXTJS만을 이용해 개발해 보고 싶었다.
+
+2. React-Query의 무한 스크롤 기능을 사용해보고 싶었다.
+
+3. 요즘 AI 증사나 사진이 유행하면서 나도 AI를 이용해서 연관된 재밌는 서비스를 만들어 보고 싶었다.
+
+- next-auth로 간단한 소셜 로그인 구현
+- DB mySql사용
+
+## 추가할 기능
+
+1. StackOverFlow나 Reddit같은 Vote기능을 추가해서 어떤 이미지가 가장 귀여운지 순위를 메기면 재밌을 것 같다.
+
+2. API 호출 시 돈이 들기 때문에 계정 당 Limit 기능 추가하기
