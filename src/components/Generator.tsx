@@ -85,6 +85,7 @@ const Generator = () => {
     <Card className="w-[365px] my-4">
       <CardHeader>
         <CardTitle className="mx-auto mb-4">AI CUTE ANIMAL MAKER</CardTitle>
+        <CardDescription className="mx-auto">*로그인 하셔야 만드실 수 있어요*</CardDescription>
         <CardDescription className="mx-auto">동물을 선택하고 만들기 버튼을 누르세요😊</CardDescription>
         <CardDescription className="mx-auto mb-2">생성되는데 10초 정도 걸립니다</CardDescription>
       </CardHeader>
