@@ -62,7 +62,7 @@ const Generator = () => {
     },
 
     onError: () => {
-      return alert('에러 발생');
+      return alert('에러 발생 - 로그인 하셨나요?');
     },
 
     onSuccess: (urls) => {
