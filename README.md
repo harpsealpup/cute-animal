@@ -1,4 +1,4 @@
-[Cute-Animal 사이트 바로가기](https://cute-animal.vercel.app)
+🤗 [Cute-Animal 사이트 바로가기](https://cute-animal.vercel.app) 🤗
 
 -간단한 소셜 로그인을 진행한 뒤 동물을 선택하고 만들기 버튼을 누르면 AI 이미지가 생성됩니다!
 
