@@ -79,8 +79,8 @@ const Generator = () => {
       <Link href="https://github.com/harpsealpup/cute-animal" className="mb-3" >
 <Button>GITHUB 보러 가기</Button>
 </Link>
-<h1 className="mb-3">본 이미지 생성기는 Open-AI 사의 DALL-E API를 사용하였습니다</h1>
-<h1 className="mb-3">무한 스크롤을 경험하실 수 있습니다</h1>
+<h1 className="mb-3 mx-2 text-center">본 이미지 생성기는 Open-AI 사의 DALL-E API를 사용하였습니다</h1>
+<h1 className="mb-3 mx-2 text-center">무한 스크롤이 적용되었습니다</h1>
 
     <Card className="w-[365px] my-4">
       <CardHeader>

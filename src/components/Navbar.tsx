@@ -17,10 +17,6 @@ const Navbar = async () => {
           <p className='hidden text-zinc-700 text-sm font-medium md:block'>Cute Animal</p>
         </Link>
 
-        {/* search bar */}
-
-
-        {/* actions */}
         {session?.user ? (
           <UserAccount user={session.user} />
         ) : (
