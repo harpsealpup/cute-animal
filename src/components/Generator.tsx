@@ -1,12 +1,12 @@
 "use client";
 
-import * as z from "zod";
+// import * as z from "zod";
 import axios from "axios";
 import Image from "next/image";
 import { ReactNode, useState } from "react";
-import { zodResolver } from "@hookform/resolvers/zod";
-import { useForm } from "react-hook-form";
-import { useRouter } from "next/navigation";
+// import { zodResolver } from "@hookform/resolvers/zod";
+// import { useForm } from "react-hook-form";
+// import { useRouter } from "next/navigation";
 import { Button } from "@/components/ui/button";
 import { Label } from "@/components/ui/label"
 import { Cat } from 'lucide-react'
@@ -19,11 +19,11 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input";
-import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
+// import { Form, FormControl, FormField, FormItem } from "@/components/ui/form";
 import { Loader2 } from 'lucide-react'
 import { useMutation } from '@tanstack/react-query'
 import { Badge } from "./ui/badge";
-
+import Link from 'next/link'
 // redolution과 amount를 default 값으로 진행할 예정이라
 // form을 사용할 필요가 없어짐
 
@@ -76,13 +76,15 @@ const Generator = () => {
 
   return ( 
     <div className="mt-10 flex flex-col justify-center items-center">
-<h1>GITHUB에 코드 보러 가기</h1>
-<h1>본 이미지 생성기는 Open-AI사의 DALL-E API를 사용하였습니다</h1>
-
+      <Link href="https://github.com/harpsealpup/cute-animal" className="mb-3" >
+<Button>GITHUB 보러 가기</Button>
+</Link>
+<h1 className="mb-3">본 이미지 생성기는 Open-AI 사의 DALL-E API를 사용하였습니다</h1>
+<h1 className="mb-3">무한 스크롤을 경험하실 수 있습니다</h1>
 
     <Card className="w-[365px] my-4">
       <CardHeader>
-        <CardTitle className="mx-auto mb-4">CUTE ANIMAL MAKER</CardTitle>
+        <CardTitle className="mx-auto mb-4">AI CUTE ANIMAL MAKER</CardTitle>
         <CardDescription className="mx-auto">동물을 선택하고 만들기 버튼을 누르세요😊</CardDescription>
         <CardDescription className="mx-auto mb-2">생성되는데 10초 정도 걸립니다</CardDescription>
       </CardHeader>
